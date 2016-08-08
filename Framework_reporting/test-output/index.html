@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Yandex_suite">
+              <span class="suite-name border-passed">Yandex suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Yandex_suite">
+                    <span>C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\src\test\java\com\epam\elena_stepuro\framework\reporting\run_tests\xml\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Yandex_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Yandex_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Yandex_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Yandex_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Yandex_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Yandex_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Yandex_suite" class="hide-methods passed suite-Yandex_suite"> (hide)</a> <!-- hide-methods passed suite-Yandex_suite -->
+                      <a href="#" panel-name="suite-Yandex_suite" class="show-methods passed suite-Yandex_suite"> (show)</a> <!-- show-methods passed suite-Yandex_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Yandex_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testClearDrafts">testClearDrafts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testClearSendLetters">testClearSendLetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testLogonYandex">testLogonYandex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yandex_suite" title="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" hash-for-method="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Yandex_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Yandex_suite" class="panel Yandex_suite">
+          <div class="suite-Yandex_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)">
+                  </a> <!-- testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e) -->
+                  <span class="method-name">testCheckDrafts</span>
+                  <span class="parameters">(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)">
+                  </a> <!-- testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf) -->
+                  <span class="method-name">testCheckDrafts</span>
+                  <span class="parameters">(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearDrafts">
+                  </a> <!-- testClearDrafts -->
+                  <span class="method-name">testClearDrafts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearSendLetters">
+                  </a> <!-- testClearSendLetters -->
+                  <span class="method-name">testClearSendLetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogonYandex">
+                  </a> <!-- testLogonYandex -->
+                  <span class="method-name">testLogonYandex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)">
+                  </a> <!-- testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70) -->
+                  <span class="method-name">testWriteSaveLetter</span>
+                  <span class="parameters">(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)">
+                  </a> <!-- testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639) -->
+                  <span class="method-name">testWriteSaveLetter</span>
+                  <span class="parameters">(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Yandex_suite-class-passed -->
+        </div> <!-- panel Yandex_suite -->
+        <div panel-name="test-xml-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\src\test\java\com\epam\elena_stepuro\framework\reporting\run_tests\xml\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Yandex suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Yandex test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Yandex test --&gt;
+&lt;/suite&gt; &lt;!-- Yandex suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Yandex suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Yandex test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Yandex suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Yandex suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Yandex_suite');
+function tableData_Yandex_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testWriteSaveLetter')
+data.setCell(0, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(0, 3, 10921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWriteSaveLetter')
+data.setCell(1, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(1, 3, 10087);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCheckDrafts')
+data.setCell(2, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(2, 3, 9828);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCheckDrafts')
+data.setCell(3, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(3, 3, 9158);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClearSendLetters')
+data.setCell(4, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(4, 3, 4753);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogonYandex')
+data.setCell(5, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(5, 3, 1685);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testClearDrafts')
+data.setCell(6, 2, 'com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest')
+data.setCell(6, 3, 1088);
+window.suiteTableData['Yandex_suite']= { tableData: data, tableDiv: 'times-div-Yandex_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-Yandex_suite">
+              </div> <!-- times-div-Yandex_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Yandex suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLogonYandex</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  47: Start test 'testLogonYandex'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  29: Start method 'logonYandex'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  38: Start method 'setBtnMailClick'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  43: Finish method 'setBtnMailClick'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  49: Start method 'setLoginInput'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  55: Finish method 'setLoginInput'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  61: Start method 'setPasswdInput'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  67: Finish method 'setPasswdInput'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  73: Start method 'setBtnEntryClick'<br></span>
+                <span class="reporter-method-output"> INFO            LoginPage#  78: Finish method 'setBtnEntryClick'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  34: Finish method 'logonYandex'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  56: Finish test 'testLogonYandex'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  70: Start test 'testCheckDrafts'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  64: Start method 'checkDrafts'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  78: Start method 'openLastLetter'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  83: Finish method 'openLastLetter'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 113: Start method 'checkSubj'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 116: The theme of letter is right!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 124: Start method 'checkFormText'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 127: The body of letter is right!!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  54: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  59: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  41: Start method 'checkLetter'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  46: Letter is in the package.<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  48: Finish method 'checkLetter'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  54: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  59: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  73: Finish method 'checkDrafts'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClearSendLetters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  88: Start test 'testClearSendLetters'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  89: Start method 'clearSendLetters'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  65: Start method 'markLetters'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  70: Finish method 'markLetters'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  76: Start method 'deleteMarkedLetters'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  81: Finish method 'deleteMarkedLetters'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  99: All letters were deleted!<br></span>
+                <span class="reporter-method-output"> INFO        YandexService# 101: Finish method 'clearSendLetters'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  92: Finish test 'testClearSendLetters'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  41: Start method 'writeSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  53: Start method 'formOpened'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  64: Finish method 'formOpened'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  47: Form was opened!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  81: Start method 'sbjInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  70: Start method 'whomInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  75: Finish method 'whomInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  92: Start method 'formInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  96: Finish method 'formInput'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  51: The letter was created!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 102: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  50: Start method 'saveAndOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  55: Finish method 'saveAndOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  61: Start method 'letterSaved'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  72: Finish method 'letterSaved'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  55: Your letter was saved!<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  57: Finish method 'writeSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClearDrafts</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  79: Start test 'testClearDrafts'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  78: Start method 'clearDrafts'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage# 100: Start method 'checkAllDrafts'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage# 105: Finish method 'checkAllDrafts'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage# 111: Start method 'deleteMarked'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage# 116: Finish method 'deleteMarked'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  82: All drafts were deleted!<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  84: Finish method 'clearDrafts'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  83: Finish test 'testClearDrafts'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  70: Start test 'testCheckDrafts'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  64: Start method 'checkDrafts'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  78: Start method 'openLastLetter'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  83: Finish method 'openLastLetter'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 113: Start method 'checkSubj'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 116: The theme of letter is right!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 124: Start method 'checkFormText'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 127: The body of letter is right!!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  54: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  59: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  41: Start method 'checkLetter'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  46: Letter is in the package.<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  48: Finish method 'checkLetter'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  54: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO             SendPage#  59: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  73: Finish method 'checkDrafts'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  41: Start method 'writeSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  53: Start method 'formOpened'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  64: Finish method 'formOpened'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  47: Form was opened!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  81: Start method 'sbjInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  70: Start method 'whomInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  75: Finish method 'whomInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  92: Start method 'formInput'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage#  96: Finish method 'formInput'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  51: The letter was created!<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 102: Start method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  50: Start method 'saveAndOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  55: Finish method 'saveAndOpen'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  61: Start method 'letterSaved'<br></span>
+                <span class="reporter-method-output"> INFO            DraftPage#  72: Finish method 'letterSaved'<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  55: Your letter was saved!<br></span>
+                <span class="reporter-method-output"> INFO        YandexService#  57: Finish method 'writeSaveLetter'<br></span>
+                <span class="reporter-method-output"> INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Yandex_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrows</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogonYandex</span>
+                <span class="method-start">1272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70)</span>
+                <span class="method-start">2961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639)</span>
+                <span class="method-start">13883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e)</span>
+                <span class="method-start">23971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf)</span>
+                <span class="method-start">33129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClearDrafts</span>
+                <span class="method-start">42958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClearSendLetters</span>
+                <span class="method-start">44046 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

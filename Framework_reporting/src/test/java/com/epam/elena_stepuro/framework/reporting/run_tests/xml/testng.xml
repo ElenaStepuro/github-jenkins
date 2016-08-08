@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yandex suite">
+	<test verbose="2" name="Yandex test">
+		<classes>
+			<class
+				name="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

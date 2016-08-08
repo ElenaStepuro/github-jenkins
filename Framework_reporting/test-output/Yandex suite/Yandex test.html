@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>TestNG:  Yandex test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Yandex test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 04 13:00:18 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48802 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testCheckDrafts()'><b>testCheckDrafts</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br>Parameters: com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e<br/>
+<a href="#Output-2053628870" onClick='toggleBox("Output-2053628870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2053628870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053628870">
+ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br><br/>
+ INFO        YandexService#  64: Start method 'checkDrafts'<br><br/>
+ INFO            DraftPage#  78: Start method 'openLastLetter'<br><br/>
+ INFO            DraftPage#  83: Finish method 'openLastLetter'<br><br/>
+ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br><br/>
+ INFO      WriteLetterPage# 116: The theme of letter is right!<br><br/>
+ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br><br/>
+ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br><br/>
+ INFO      WriteLetterPage# 127: The body of letter is right!!<br><br/>
+ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br><br/>
+ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br><br/>
+ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br><br/>
+ INFO             SendPage#  54: Start method 'draftOpen'<br><br/>
+ INFO             SendPage#  59: Finish method 'draftOpen'<br><br/>
+ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br><br/>
+ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br><br/>
+ INFO             SendPage#  41: Start method 'checkLetter'<br><br/>
+ INFO             SendPage#  46: Letter is in the package.<br><br/>
+ INFO             SendPage#  48: Finish method 'checkLetter'<br><br/>
+ INFO             SendPage#  54: Start method 'draftOpen'<br><br/>
+ INFO             SendPage#  59: Finish method 'draftOpen'<br><br/>
+ INFO        YandexService#  73: Finish method 'checkDrafts'<br><br/>
+ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testCheckDrafts()'><b>testCheckDrafts</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br>Parameters: com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf<br/>
+<a href="#Output-1574898980" onClick='toggleBox("Output-1574898980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574898980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574898980">
+ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br><br/>
+ INFO        YandexService#  64: Start method 'checkDrafts'<br><br/>
+ INFO            DraftPage#  78: Start method 'openLastLetter'<br><br/>
+ INFO            DraftPage#  83: Finish method 'openLastLetter'<br><br/>
+ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br><br/>
+ INFO      WriteLetterPage# 116: The theme of letter is right!<br><br/>
+ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br><br/>
+ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br><br/>
+ INFO      WriteLetterPage# 127: The body of letter is right!!<br><br/>
+ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br><br/>
+ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br><br/>
+ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br><br/>
+ INFO             SendPage#  54: Start method 'draftOpen'<br><br/>
+ INFO             SendPage#  59: Finish method 'draftOpen'<br><br/>
+ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br><br/>
+ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br><br/>
+ INFO             SendPage#  41: Start method 'checkLetter'<br><br/>
+ INFO             SendPage#  46: Letter is in the package.<br><br/>
+ INFO             SendPage#  48: Finish method 'checkLetter'<br><br/>
+ INFO             SendPage#  54: Start method 'draftOpen'<br><br/>
+ INFO             SendPage#  59: Finish method 'draftOpen'<br><br/>
+ INFO        YandexService#  73: Finish method 'checkDrafts'<br><br/>
+ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testClearDrafts()'><b>testClearDrafts</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br/>
+<a href="#Output-2061774051" onClick='toggleBox("Output-2061774051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061774051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061774051">
+ INFO           YandexTest#  79: Start test 'testClearDrafts'<br><br/>
+ INFO        YandexService#  78: Start method 'clearDrafts'<br><br/>
+ INFO            DraftPage# 100: Start method 'checkAllDrafts'<br><br/>
+ INFO            DraftPage# 105: Finish method 'checkAllDrafts'<br><br/>
+ INFO            DraftPage# 111: Start method 'deleteMarked'<br><br/>
+ INFO            DraftPage# 116: Finish method 'deleteMarked'<br><br/>
+ INFO        YandexService#  82: All drafts were deleted!<br><br/>
+ INFO        YandexService#  84: Finish method 'clearDrafts'<br><br/>
+ INFO           YandexTest#  83: Finish test 'testClearDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testClearSendLetters()'><b>testClearSendLetters</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br/>
+<a href="#Output-1990385139" onClick='toggleBox("Output-1990385139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1990385139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1990385139">
+ INFO           YandexTest#  88: Start test 'testClearSendLetters'<br><br/>
+ INFO        YandexService#  89: Start method 'clearSendLetters'<br><br/>
+ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br><br/>
+ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br><br/>
+ INFO             SendPage#  65: Start method 'markLetters'<br><br/>
+ INFO             SendPage#  70: Finish method 'markLetters'<br><br/>
+ INFO             SendPage#  76: Start method 'deleteMarkedLetters'<br><br/>
+ INFO             SendPage#  81: Finish method 'deleteMarkedLetters'<br><br/>
+ INFO        YandexService#  99: All letters were deleted!<br><br/>
+ INFO        YandexService# 101: Finish method 'clearSendLetters'<br><br/>
+ INFO           YandexTest#  92: Finish test 'testClearSendLetters'<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex()'><b>testLogonYandex</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br/>
+<a href="#Output-1006751649" onClick='toggleBox("Output-1006751649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1006751649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1006751649">
+ INFO           YandexTest#  47: Start test 'testLogonYandex'<br><br/>
+ INFO        YandexService#  29: Start method 'logonYandex'<br><br/>
+ INFO            LoginPage#  38: Start method 'setBtnMailClick'<br><br/>
+ INFO            LoginPage#  43: Finish method 'setBtnMailClick'<br><br/>
+ INFO            LoginPage#  49: Start method 'setLoginInput'<br><br/>
+ INFO            LoginPage#  55: Finish method 'setLoginInput'<br><br/>
+ INFO            LoginPage#  61: Start method 'setPasswdInput'<br><br/>
+ INFO            LoginPage#  67: Finish method 'setPasswdInput'<br><br/>
+ INFO            LoginPage#  73: Start method 'setBtnEntryClick'<br><br/>
+ INFO            LoginPage#  78: Finish method 'setBtnEntryClick'<br><br/>
+ INFO        YandexService#  34: Finish method 'logonYandex'<br><br/>
+ INFO           YandexTest#  56: Finish test 'testLogonYandex'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter()'><b>testWriteSaveLetter</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br>Parameters: com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70<br/>
+<a href="#Output-1508059488" onClick='toggleBox("Output-1508059488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1508059488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1508059488">
+ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br><br/>
+ INFO        YandexService#  41: Start method 'writeSaveLetter'<br><br/>
+ INFO      WriteLetterPage#  53: Start method 'formOpened'<br><br/>
+ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br><br/>
+ INFO        YandexService#  47: Form was opened!<br><br/>
+ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br><br/>
+ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br><br/>
+ INFO      WriteLetterPage#  70: Start method 'whomInput'<br><br/>
+ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br><br/>
+ INFO      WriteLetterPage#  92: Start method 'formInput'<br><br/>
+ INFO      WriteLetterPage#  96: Finish method 'formInput'<br><br/>
+ INFO        YandexService#  51: The letter was created!<br><br/>
+ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br><br/>
+ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br><br/>
+ INFO            DraftPage#  50: Start method 'saveAndOpen'<br><br/>
+ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br><br/>
+ INFO            DraftPage#  61: Start method 'letterSaved'<br><br/>
+ INFO            DraftPage#  72: Finish method 'letterSaved'<br><br/>
+ INFO        YandexService#  55: Your letter was saved!<br><br/>
+ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br><br/>
+ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+<tr>
+<td title='com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter()'><b>testWriteSaveLetter</b><br>Test class: com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest<br>Parameters: com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639<br/>
+<a href="#Output-57241990" onClick='toggleBox("Output-57241990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57241990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57241990">
+ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br><br/>
+ INFO        YandexService#  41: Start method 'writeSaveLetter'<br><br/>
+ INFO      WriteLetterPage#  53: Start method 'formOpened'<br><br/>
+ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br><br/>
+ INFO        YandexService#  47: Form was opened!<br><br/>
+ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br><br/>
+ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br><br/>
+ INFO      WriteLetterPage#  70: Start method 'whomInput'<br><br/>
+ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br><br/>
+ INFO      WriteLetterPage#  92: Start method 'formInput'<br><br/>
+ INFO      WriteLetterPage#  96: Finish method 'formInput'<br><br/>
+ INFO        YandexService#  51: The letter was created!<br><br/>
+ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br><br/>
+ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br><br/>
+ INFO            DraftPage#  50: Start method 'saveAndOpen'<br><br/>
+ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br><br/>
+ INFO            DraftPage#  61: Start method 'letterSaved'<br><br/>
+ INFO            DraftPage#  72: Finish method 'letterSaved'<br><br/>
+ INFO        YandexService#  55: Your letter was saved!<br><br/>
+ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br><br/>
+ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196</td></tr>
+</table><p>
+</body>
+</html>

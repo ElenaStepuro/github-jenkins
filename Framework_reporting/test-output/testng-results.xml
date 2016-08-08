@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[ INFO           YandexTest#  32: Start test 'openBrows'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\test-output\html\screenshots<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  38: All screenshots were deleted from folder<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  42: Finish test 'openBrows'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  47: Start test 'testLogonYandex'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  29: Start method 'logonYandex'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  38: Start method 'setBtnMailClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  43: Finish method 'setBtnMailClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  49: Start method 'setLoginInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  55: Finish method 'setLoginInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  61: Start method 'setPasswdInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  67: Finish method 'setPasswdInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  73: Start method 'setBtnEntryClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            LoginPage#  78: Finish method 'setBtnEntryClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  34: Finish method 'logonYandex'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  56: Finish test 'testLogonYandex'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  41: Start method 'writeSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  53: Start method 'formOpened'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  47: Form was opened!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  70: Start method 'whomInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  92: Start method 'formInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  96: Finish method 'formInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  51: The letter was created!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  50: Start method 'saveAndOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  61: Start method 'letterSaved'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  72: Finish method 'letterSaved'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  55: Your letter was saved!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  41: Start method 'writeSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  53: Start method 'formOpened'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  47: Form was opened!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  70: Start method 'whomInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  92: Start method 'formInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage#  96: Finish method 'formInput'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  51: The letter was created!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  50: Start method 'saveAndOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  61: Start method 'letterSaved'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  72: Finish method 'letterSaved'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  55: Your letter was saved!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  64: Start method 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  78: Start method 'openLastLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  83: Finish method 'openLastLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 116: The theme of letter is right!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 127: The body of letter is right!!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  41: Start method 'checkLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  46: Letter is in the package.<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  48: Finish method 'checkLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  73: Finish method 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  64: Start method 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  78: Start method 'openLastLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  83: Finish method 'openLastLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 116: The theme of letter is right!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 127: The body of letter is right!!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  41: Start method 'checkLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  46: Letter is in the package.<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  48: Finish method 'checkLetter'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  73: Finish method 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  79: Start test 'testClearDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  78: Start method 'clearDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage# 100: Start method 'checkAllDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage# 105: Finish method 'checkAllDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage# 111: Start method 'deleteMarked'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage# 116: Finish method 'deleteMarked'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  82: All drafts were deleted!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  84: Finish method 'clearDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  83: Finish test 'testClearDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  88: Start test 'testClearSendLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  89: Start method 'clearSendLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  65: Start method 'markLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  70: Finish method 'markLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  76: Start method 'deleteMarkedLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO             SendPage#  81: Finish method 'deleteMarkedLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService#  99: All letters were deleted!<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO        YandexService# 101: Finish method 'clearSendLetters'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO           YandexTest#  92: Finish test 'testClearSendLetters'<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Yandex suite" duration-ms="48802" started-at="2016-08-04T10:00:18Z" finished-at="2016-08-04T10:01:07Z">
+    <groups>
+    </groups>
+    <test name="Yandex test" duration-ms="48802" started-at="2016-08-04T10:00:18Z" finished-at="2016-08-04T10:01:07Z">
+      <class name="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest">
+        <test-method status="PASS" signature="openBrows()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="openBrows" is-config="true" duration-ms="1270" started-at="2016-08-04T13:00:18Z" finished-at="2016-08-04T13:00:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  32: Start test 'openBrows'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\test-output\html\screenshots<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  38: All screenshots were deleted from folder<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  42: Finish test 'openBrows'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrows -->
+        <test-method status="PASS" signature="testLogonYandex()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testLogonYandex" duration-ms="1685" started-at="2016-08-04T13:00:19Z" finished-at="2016-08-04T13:00:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  47: Start test 'testLogonYandex'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  29: Start method 'logonYandex'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  38: Start method 'setBtnMailClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  43: Finish method 'setBtnMailClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  49: Start method 'setLoginInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  55: Finish method 'setLoginInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  61: Start method 'setPasswdInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  67: Finish method 'setPasswdInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  73: Start method 'setBtnEntryClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            LoginPage#  78: Finish method 'setBtnEntryClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  34: Finish method 'logonYandex'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  56: Finish test 'testLogonYandex'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogonYandex -->
+        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testWriteSaveLetter" duration-ms="10921" started-at="2016-08-04T13:00:21Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-04T13:00:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  41: Start method 'writeSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  53: Start method 'formOpened'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  47: Form was opened!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  70: Start method 'whomInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  92: Start method 'formInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  96: Finish method 'formInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  51: The letter was created!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  50: Start method 'saveAndOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  61: Start method 'letterSaved'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  72: Finish method 'letterSaved'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  55: Your letter was saved!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testWriteSaveLetter -->
+        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testWriteSaveLetter" duration-ms="10087" started-at="2016-08-04T13:00:32Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-04T13:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  61: Start test 'testWriteSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  41: Start method 'writeSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  53: Start method 'formOpened'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  64: Finish method 'formOpened'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  47: Form was opened!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  81: Start method 'sbjInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  86: Finish method 'sbjInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  70: Start method 'whomInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  75: Finish method 'whomInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  92: Start method 'formInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage#  96: Finish method 'formInput'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  51: The letter was created!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 102: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 107: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  50: Start method 'saveAndOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  55: Finish method 'saveAndOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  61: Start method 'letterSaved'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  72: Finish method 'letterSaved'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  55: Your letter was saved!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  57: Finish method 'writeSaveLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  65: Finish test 'testWriteSaveLetter'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testWriteSaveLetter -->
+        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testCheckDrafts" duration-ms="9158" started-at="2016-08-04T13:00:42Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-04T13:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  64: Start method 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  78: Start method 'openLastLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  83: Finish method 'openLastLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 116: The theme of letter is right!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 127: The body of letter is right!!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  41: Start method 'checkLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  46: Letter is in the package.<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  48: Finish method 'checkLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  73: Finish method 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckDrafts -->
+        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testCheckDrafts" duration-ms="9828" started-at="2016-08-04T13:00:51Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-04T13:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  70: Start test 'testCheckDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  64: Start method 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  78: Start method 'openLastLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  83: Finish method 'openLastLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 113: Start method 'checkSubj'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 116: The theme of letter is right!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 118: Finish method 'checkSubj'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 124: Start method 'checkFormText'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 127: The body of letter is right!!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 129: Finish method 'checkFormText'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 135: Start method 'btnSendClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO      WriteLetterPage# 140: Finish method 'btnSendClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  41: Start method 'checkLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  46: Letter is in the package.<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  48: Finish method 'checkLetter'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  54: Start method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  59: Finish method 'draftOpen'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  73: Finish method 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  74: Finish test 'testCheckDrafts'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckDrafts -->
+        <test-method status="PASS" signature="testClearDrafts()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testClearDrafts" duration-ms="1088" started-at="2016-08-04T13:01:01Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testCheckDrafts" finished-at="2016-08-04T13:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  79: Start test 'testClearDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  78: Start method 'clearDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage# 100: Start method 'checkAllDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage# 105: Finish method 'checkAllDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage# 111: Start method 'deleteMarked'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage# 116: Finish method 'deleteMarked'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  82: All drafts were deleted!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  84: Finish method 'clearDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  83: Finish test 'testClearDrafts'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClearDrafts -->
+        <test-method status="PASS" signature="testClearSendLetters()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testClearSendLetters" duration-ms="4753" started-at="2016-08-04T13:01:02Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testClearDrafts" finished-at="2016-08-04T13:01:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO           YandexTest#  88: Start test 'testClearSendLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  89: Start method 'clearSendLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  89: Start method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO            DraftPage#  94: Finish method 'btnSendPackageClick'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  65: Start method 'markLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  70: Finish method 'markLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  76: Start method 'deleteMarkedLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO             SendPage#  81: Finish method 'deleteMarkedLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService#  99: All letters were deleted!<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO        YandexService# 101: Finish method 'clearSendLetters'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO           YandexTest#  92: Finish test 'testClearSendLetters'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClearSendLetters -->
+      </class> <!-- com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest -->
+    </test> <!-- Yandex test -->
+  </suite> <!-- Yandex suite -->
+</testng-results>
