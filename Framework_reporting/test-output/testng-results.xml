@@ -5,7 +5,7 @@
       <![CDATA[ INFO           YandexTest#  32: Start test 'openBrows'<br>]]>
     </line>
     <line>
-      <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\test-output\html\screenshots<br>]]>
+      <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\Jenkins\Jenkins\Framework_reporting\target\surefire-reports\html\screenshots<br>]]>
     </line>
     <line>
       <![CDATA[ INFO           YandexTest#  38: All screenshots were deleted from folder<br>]]>
@@ -374,18 +374,18 @@
       <![CDATA[ INFO           YandexTest#  92: Finish test 'testClearSendLetters'<br>]]>
     </line>
   </reporter-output>
-  <suite name="Yandex suite" duration-ms="48802" started-at="2016-08-04T10:00:18Z" finished-at="2016-08-04T10:01:07Z">
+  <suite name="Yandex suite" duration-ms="48718" started-at="2016-08-09T10:13:47Z" finished-at="2016-08-09T10:14:36Z">
     <groups>
     </groups>
-    <test name="Yandex test" duration-ms="48802" started-at="2016-08-04T10:00:18Z" finished-at="2016-08-04T10:01:07Z">
+    <test name="Yandex test" duration-ms="48718" started-at="2016-08-09T10:13:47Z" finished-at="2016-08-09T10:14:36Z">
       <class name="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest">
-        <test-method status="PASS" signature="openBrows()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="openBrows" is-config="true" duration-ms="1270" started-at="2016-08-04T13:00:18Z" finished-at="2016-08-04T13:00:19Z">
+        <test-method status="PASS" signature="openBrows()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="openBrows" is-config="true" duration-ms="1666" started-at="2016-08-09T13:13:47Z" finished-at="2016-08-09T13:13:49Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO           YandexTest#  32: Start test 'openBrows'<br>]]>
             </line>
             <line>
-              <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\framework_projects\Framework_reporting\test-output\html\screenshots<br>]]>
+              <![CDATA[ INFO           ScreenShot#  35: Delete all files from folder C:\Users\Elena_Stepuro@epam.com\Desktop\HOMEWORK\Jenkins\Jenkins\Framework_reporting\target\surefire-reports\html\screenshots<br>]]>
             </line>
             <line>
               <![CDATA[ INFO           YandexTest#  38: All screenshots were deleted from folder<br>]]>
@@ -395,7 +395,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openBrows -->
-        <test-method status="PASS" signature="testLogonYandex()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testLogonYandex" duration-ms="1685" started-at="2016-08-04T13:00:19Z" finished-at="2016-08-04T13:00:21Z">
+        <test-method status="PASS" signature="testLogonYandex()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testLogonYandex" duration-ms="1787" started-at="2016-08-09T13:13:49Z" finished-at="2016-08-09T13:13:50Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO           YandexTest#  47: Start test 'testLogonYandex'<br>]]>
@@ -435,11 +435,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testLogonYandex -->
-        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testWriteSaveLetter" duration-ms="10921" started-at="2016-08-04T13:00:21Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-04T13:00:32Z">
+        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testWriteSaveLetter" duration-ms="11115" started-at="2016-08-09T13:13:50Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-09T13:14:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2f62ea70]]>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@1a20270e]]>
               </value>
             </param>
           </params>
@@ -509,11 +509,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testWriteSaveLetter -->
-        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testWriteSaveLetter" duration-ms="10087" started-at="2016-08-04T13:00:32Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-04T13:00:42Z">
+        <test-method status="PASS" signature="testWriteSaveLetter(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testWriteSaveLetter" duration-ms="9772" started-at="2016-08-09T13:14:02Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testLogonYandex" finished-at="2016-08-09T13:14:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@24ba9639]]>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7ca20101]]>
               </value>
             </param>
           </params>
@@ -583,11 +583,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testWriteSaveLetter -->
-        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testCheckDrafts" duration-ms="9158" started-at="2016-08-04T13:00:42Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-04T13:00:51Z">
+        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testCheckDrafts" duration-ms="8638" started-at="2016-08-09T13:14:11Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-09T13:14:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@2b76ff4e]]>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@77d67cf3]]>
               </value>
             </param>
           </params>
@@ -663,11 +663,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testCheckDrafts -->
-        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testCheckDrafts" duration-ms="9828" started-at="2016-08-04T13:00:51Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-04T13:01:01Z">
+        <test-method status="PASS" signature="testCheckDrafts(com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter)[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testCheckDrafts" duration-ms="9402" started-at="2016-08-09T13:14:20Z" data-provider="testData" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testWriteSaveLetter" finished-at="2016-08-09T13:14:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@7a1234bf]]>
+                <![CDATA[com.epam.elena_stepuro.framework.reporting.run_tests.yandex.business_ob.Letter@46944ca9]]>
               </value>
             </param>
           </params>
@@ -743,7 +743,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testCheckDrafts -->
-        <test-method status="PASS" signature="testClearDrafts()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testClearDrafts" duration-ms="1088" started-at="2016-08-04T13:01:01Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testCheckDrafts" finished-at="2016-08-04T13:01:02Z">
+        <test-method status="PASS" signature="testClearDrafts()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testClearDrafts" duration-ms="1046" started-at="2016-08-09T13:14:29Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testCheckDrafts" finished-at="2016-08-09T13:14:30Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO           YandexTest#  79: Start test 'testClearDrafts'<br>]]>
@@ -774,7 +774,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testClearDrafts -->
-        <test-method status="PASS" signature="testClearSendLetters()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@7de62196]" name="testClearSendLetters" duration-ms="4753" started-at="2016-08-04T13:01:02Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testClearDrafts" finished-at="2016-08-04T13:01:07Z">
+        <test-method status="PASS" signature="testClearSendLetters()[pri:0, instance:com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest@662706a7]" name="testClearSendLetters" duration-ms="5267" started-at="2016-08-09T13:14:30Z" depends-on-methods="com.epam.elena_stepuro.framework.reporting.run_tests.test.YandexTest.testClearDrafts" finished-at="2016-08-09T13:14:36Z">
           <reporter-output>
             <line>
               <![CDATA[ INFO           YandexTest#  88: Start test 'testClearSendLetters'<br>]]>

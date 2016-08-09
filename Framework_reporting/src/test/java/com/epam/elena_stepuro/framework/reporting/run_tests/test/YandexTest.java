@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
@@ -90,6 +91,15 @@ public class YandexTest {
 		service.clearSendLetters();
 
 		LOG.info("Finish test 'testClearSendLetters'");
+	}
+	
+	@AfterClass
+	public void closeBrowse(){
+		LOG.info("Start 'closeBrowse'");
+		
+		Driver.getWebDriverInstance().quit();
+		
+		LOG.info("Finish 'closeBrowse'");
 	}
 
 	// Данные ко тестам
