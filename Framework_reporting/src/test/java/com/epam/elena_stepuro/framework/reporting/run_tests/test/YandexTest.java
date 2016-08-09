@@ -54,6 +54,7 @@ public class YandexTest {
 		service.logonYandex(account);
 
 		LOG.info("Finish test 'testLogonYandex'");
+		throw new RuntimeException();
 	}
 
 	@Test(dependsOnMethods = "testLogonYandex", dataProvider = "testData")

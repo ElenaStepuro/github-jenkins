@@ -12,7 +12,7 @@ public class ScreenShot {
 
 	private static final Logger LOG = Logger.getLogger(ScreenShot.class);
 
-	private static final String PATH_TO_REPORT = "test-output/html/";
+	private static final String PATH_TO_REPORT = "target/surefire-reports/html/";
 	private static final String SCREENSHOTS_FOLDER = "screenshots";
 
 	public static void make(WebDriver driver) {
